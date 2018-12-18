@@ -10,20 +10,20 @@
 ### 3、将简化后的apk进行7zip极限压缩和align
 
 使用方式：
-**第一步**：确保 ApkOptimization\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes 文件夹下有如下工具
-        * 7za.exe极限压缩工具
-        * mykeystore.keystore密钥工具
-        * zipalign.exe APK优化安装运行工具
-        * 再out文件下的config.xml配置文件，里边含有需要进行的优化策略配置
-        * 需要优化压缩的安装包
+**第一步**：确保 ApkOptimization\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes 文件夹下有如下工具  
+        * 7za.exe极限压缩工具  
+        * mykeystore.keystore密钥工具  
+        * zipalign.exe APK优化安装运行工具  
+        * 再out文件下的config.xml配置文件，里边含有需要进行的优化策略配置  
+        * 需要优化压缩的安装包  
   ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化3.png)
         
         
-**第二步：**运行主函数Main.java
+**第二步**：运行主函数Main.java
         图中files数组第一个元素是要优化的安装包的名称
          ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化4.png)
 
-**第三步：**在 ApkOptimization\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes文件夹下将会生成一个和安装包同名的文件夹
+**第三步**：在 ApkOptimization\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes文件夹下将会生成一个和安装包同名的文件夹
          ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化5.png)
 
 
