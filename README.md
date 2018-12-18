@@ -9,7 +9,7 @@
 ### 2、将简化后的apk再进行7zip极限压缩
 ### 3、将简化后的apk进行7zip极限压缩和align
 
-使用方式：
+    使用方式：  
 **第一步**：确保 ApkOptimization\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes 文件夹下有如下工具  
 * 1 
     * 2
@@ -19,6 +19,8 @@
         * zipalign.exe APK优化安装运行工具  
         * 再out文件下的config.xml配置文件，里边含有需要进行的优化策略配置  
         * 需要优化压缩的安装包  
+ 
+ 
   ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化3.png)
         
         
@@ -28,11 +30,13 @@
 
 **第三步**：在 ApkOptimization\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes文件夹下将会生成一个和安装包同名的文件夹
          ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化5.png)
-
-
-* 编程语言  
-    * 脚本语言  
-        * Python  
+* 1 
+    * 2
+        * 后面的安装包就是优化后的安装包 
+        * r 文件夹里边是简化名称后的资源文件也就是优化前的res
+        * temp 文件夹是优化前apk的解压缩文件
+        * resources.arsc 优化前的资源文件指针文件
+        
 
 
 ### align简介
