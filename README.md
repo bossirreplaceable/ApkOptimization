@@ -1,7 +1,7 @@
 # 安装包的大小优化：
 ### 实现功能：
 ##### 1、将打包的apk中的资源文件的文件名简化成a
-        如：![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化1.png)
+        如：![](https://raw.githubusercontent.com/bossirreplaceable/ApkOptimization/master/pics/%E4%BC%98%E5%8C%961.png)
         优化后
         ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化2.png)
 ##### 2、将简化后的apk再进行7zip极限压缩
