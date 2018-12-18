@@ -15,6 +15,6 @@
 
      zipalign优化的最根本目的是帮助操作系统更高效率的根据请求索引资源，将resource-handling code统一将Data structure alignment（数 据结构对齐标准:DSA）限定为4-byte boundaries。  
 
-     手动执行Align优化：  
+     '''手动执行Align优化：'''  
         利用tools文件夹下的zipalign工具。首先调出cmd命令行，然后执行:zipalign -v 4 source.apk androidres.apk。这个方法不受API Level的限制，可以对任何版本的APK执行Align优化。  
         同时可以利用zipalign工具检查当前APK是否已经执行过Align优化。命令：zipalign -c -v 4 androidres.apk  
