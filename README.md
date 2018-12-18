@@ -1,32 +1,34 @@
 # 安装包的大小优化：
-### 实现功能：
-##### 1、将打包的apk中的资源文件的文件名简化成a
-![](https://raw.githubusercontent.com/bossirreplaceable/ApkOptimization/master/pics/优化1.png)
-![baidu](http://www.baidu.com/img/bdlogo.gif) 
+## 实现功能：
+### 1、将打包的apk中的资源文件的文件名简化成a
+  ![](https://raw.githubusercontent.com/bossirreplaceable/ApkOptimization/master/pics/优化1.png)
 *优化后*
-     ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化2.png)
+  ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化2.png)
     
    
-##### 2、将简化后的apk再进行7zip极限压缩
-##### 3、将简化后的apk进行7zip极限压缩和align
-
+### 2、将简化后的apk再进行7zip极限压缩
+### 3、将简化后的apk进行7zip极限压缩和align
 
 使用方式：
 第一步：确保 ApkOptimization\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes 文件夹下有如下工具
-        1.7za.exe极限压缩工具
-        2.mykeystore.keystore密钥工具
-        3.zipalign.exe APK优化安装运行工具
-        4.再out文件下的config.xml配置文件，里边含有需要进行的优化策略配置
-        5.需要优化压缩的安装包
+        ·7za.exe极限压缩工具
+        ·mykeystore.keystore密钥工具
+        ·zipalign.exe APK优化安装运行工具
+        ·再out文件下的config.xml配置文件，里边含有需要进行的优化策略配置
+        ·需要优化压缩的安装包
+  ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化3.png)
+        
+        
 第二步：运行主函数Main.java
         图中files数组第一个元素是要优化的安装包的名称
+         ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化4.png)
 
 第三步：在 ApkOptimization\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes文件夹下将会生成一个和安装包同名的文件夹
-        
+         ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化5.png)
 
 
 
-#### align简介
+### align简介
     Android系统中Application的数据都保存在它的APK文件中，同时可以被多个进程访问，安装的过程包括如下几个步骤：  
          Installer通过每个apk的manifest文件获取与当前应用程序相关联的permissions信息  
          Home application读取当前APK的Name和Icon等信息。  
