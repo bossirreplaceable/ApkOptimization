@@ -11,11 +11,11 @@
 
 使用方式：
 **第一步**：确保 ApkOptimization\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes 文件夹下有如下工具  
-    * 7za.exe极限压缩工具  
-    * mykeystore.keystore密钥工具  
-    * zipalign.exe APK优化安装运行工具  
-    * 再out文件下的config.xml配置文件，里边含有需要进行的优化策略配置  
-    * 需要优化压缩的安装包  
+    *   7za.exe极限压缩工具  
+    *   mykeystore.keystore密钥工具  
+    *   zipalign.exe APK优化安装运行工具  
+    *   再out文件下的config.xml配置文件，里边含有需要进行的优化策略配置  
+    *   需要优化压缩的安装包  
   ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化3.png)
         
         
