@@ -27,6 +27,10 @@
          ![](https://github.com/bossirreplaceable/ApkOptimization/blob/master/pics/优化5.png)
 
 
+* 编程语言  
+    * 脚本语言  
+        * Python  
+
 
 ### align简介
     Android系统中Application的数据都保存在它的APK文件中，同时可以被多个进程访问，安装的过程包括如下几个步骤：  
