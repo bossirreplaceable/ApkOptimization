@@ -46,8 +46,8 @@ public class Main {
 
         Main m = new Main();
         getRunningLocation(m);
-        String[] files = new String[]{"TLint-debug.apk", "-config","config.xml","-7zip","7za.exe","-zipalign","zipalign.exe"};
-
+        String[] files = new String[]{"TLint-debug.apk", "-config","config.xml",
+                "-7zip","7za.exe","-zipalign","zipalign.exe"};
         m.run(files);
     }
 
